@@ -1,0 +1,8 @@
+---
+commands: |
+  java
+  -Dyaml.rocks=true
+  &> /var/logs/this.log
+
+other:
+  some: parm
